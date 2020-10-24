@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta lang="ru">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">  
+    </head>
+    <body>
+        <div id='container'>
+            <canvas id="chart" width="700" height="500"></canvas>
+        </div>
+        <select name="currency" id="select">
+            <option selected value="145">USD</option>
+            <option value="292">EUR</option>
+            <option value="298">RUB</option>
+        </select>
+        <table class="table" bordercolor="black" border="1" width="700">
+            <tr>
+                <td></td>
+                <td class="date">1</td>
+                <td class="date">1</td>
+                <td class="date">1</td>
+                <td class="date">1</td>
+                <td class="date">1</td>
+                <td class="date">1</td>
+                <td class="date">1</td>
+            </tr>
+            <tr class="EUR">
+                <td>EUR</td>
+                <td class="EURc">1</td>
+                <td class="EURc">1</td>
+                <td class="EURc">1</td>
+                <td class="EURc">1</td>
+                <td class="EURc">1</td>
+                <td class="EURc">1</td>
+                <td class="EURc">1</td>
+            </tr>
+            <tr class="USD">
+                <td>USD</td>
+                <td class="USDc">1</td>
+                <td class="USDc">1</td>
+                <td class="USDc">1</td>
+                <td class="USDc">1</td>
+                <td class="USDc">1</td>
+                <td class="USDc">1</td>
+                <td class="USDc">1</td>
+            </tr>
+            <tr class="RUB">
+                <td>RUB</td>
+                <td class="RUBc">1</td>
+                <td class="RUBc">1</td>
+                <td class="RUBc">1</td>
+                <td class="RUBc">1</td>
+                <td class="RUBc">1</td>
+                <td class="RUBc">1</td>
+                <td class="RUBc">1</td>
+            </tr>
+        </table>
+        <input class="input" type="text">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+        <script src="./jquery-3.4.1.min.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>
